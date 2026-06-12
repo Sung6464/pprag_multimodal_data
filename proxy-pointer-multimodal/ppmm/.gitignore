@@ -1,0 +1,10 @@
+.env
+venv/
+__pycache__/
+*.pyc
+# generated data (keep folders, ignore contents)
+data/extracted_papers/*
+data/trees/*
+data/index/*
+data/proxies/*
+!data/**/.gitkeep

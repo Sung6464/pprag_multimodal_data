@@ -1,0 +1,24 @@
+# Ignore environment variables containing API keys / secrets
+.env
+**/.env
+
+# Ignore python caches and virtual environments
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Ignore zip files or data archives if not needed
+*.zip
+
+# Ignore local editor/IDE configs
+.vscode/
+.idea/
+
+# Ignore runtime data directory in the streamlit app
+proxy-pointer-multimodal/ppmm/data/extracted_papers/*
+proxy-pointer-multimodal/ppmm/data/trees/*
+proxy-pointer-multimodal/ppmm/data/index/*
+proxy-pointer-multimodal/ppmm/data/proxies/*
+!proxy-pointer-multimodal/ppmm/data/**/.gitkeep
